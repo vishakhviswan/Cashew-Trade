@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 
-import OlxLogo from '../../assets/OlxLogo';
+import Logo from '../../assets/Logo';
 import Search from '../../assets/Search';
 import Arrow from '../../assets/Arrow';
 import SellButton from '../../assets/SellButton';
@@ -13,8 +13,11 @@ function Header() {
         <div className="headerParentDiv">
       <div className="headerChildDiv">
         <div className="brandName" >
-          <OlxLogo></OlxLogo>
+          <Logo/>
         </div>
+       <div className="companyName">
+         <h1>Cashew Trade</h1>
+       </div>
         <div className="placeSearch">
           <Search></Search>
           <input type="text" />
@@ -24,7 +27,7 @@ function Header() {
           <div className="input">
             <input
               type="text"
-              placeholder="Find car,mobile phone and more..."
+              placeholder="Find Cashew Kernels..."
             />
           </div>
           <div className="searchAction">
@@ -32,7 +35,7 @@ function Header() {
           </div>
         </div>
         <div className="language">
-          <span> ENGLISH </span>
+          <span> Grades </span>
           <Arrow></Arrow>
         </div>
         <div className="loginPage">

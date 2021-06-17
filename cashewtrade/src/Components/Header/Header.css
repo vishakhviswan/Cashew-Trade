@@ -20,7 +20,7 @@
   align-items: center;
   padding: 0 8px;
   border: 2px solid #002f34;
-  border-radius: 4px;
+  border-radius: 7px;
   background-color: white;
 }
 
@@ -35,15 +35,15 @@
 }
 
 .productSearch {
-  width: 25em;
+  margin-left: 0px;
+  width: 18em;
   height: 35px;
   border: 2px solid #002f34;
-  border-radius: 4px;
+  border-radius: 7px;
   display: flex;
   align-items: center;
   background-color: white;
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -62,7 +62,7 @@
 
 .productSearch .searchAction {
   min-width: 48px;
-  height: 48px;
+  height: 35px;
   position: relative;
   display: flex;
   cursor: pointer;
@@ -90,7 +90,7 @@
   font-size: 15px;
   white-space: normal;
   text-overflow: ellipsis;
-  font-weight: bolder;
+  font-weight: bold;
   margin-right: 5px;
 }
 
@@ -115,6 +115,7 @@
 }
 
 .sellMenu {
+  margin-right: 25px;
   position: relative;
   cursor: pointer;
 }
@@ -124,15 +125,15 @@
 }
 
 .sellMenu .top {
-  fill: #23e5db;
+  fill: #80f87c;
 }
 
 .sellMenu .left {
-  fill: #ffce32;
+  fill: #2db44f;
 }
 
 .sellMenu .right {
-  fill: #3a77ff;
+  fill: #065f0e;
 }
 .sellMenu .sellMenuContent {
   display: flex;
