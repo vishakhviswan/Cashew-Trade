@@ -1,10 +1,10 @@
 import React from 'react'
-import Logo from '../../src/logo.jpg'
+import Logo from '../../src/nameLogo.png'
 
 
 export default  function logo() {
     return(  
-       <img width="48px"
+       <img width="auto"
         height="48px"
         viewBox="0 0 1024 1024"
         data-aut-id="icon"

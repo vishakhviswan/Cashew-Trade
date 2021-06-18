@@ -15,9 +15,6 @@ function Header() {
         <div className="brandName" >
           <Logo/>
         </div>
-       <div className="companyName">
-         <h1>Cashew Trade</h1>
-       </div>
         <div className="placeSearch">
           <Search></Search>
           <input type="text" />
